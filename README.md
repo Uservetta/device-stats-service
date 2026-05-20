@@ -73,21 +73,23 @@
 
 ## Структура проекта
 
+```text
 device_stats_service/
-├── app/ # Основной код
-│ ├── main.py # FastAPI приложение
-│ ├── models.py # Таблицы БД
-│ ├── schemas.py # Pydantic схемы
-│ ├── crud.py # Работа с БД
-│ ├── tasks.py # Celery задачи
-│ └── database.py # Подключение к БД
-├── docker/ # Dockerfile'ы
-├── tests/ # Locust тесты
-├── results/ # Скриншоты тестов (локально)
-├── docker-compose.yml # Оркестрация контейнеров
-├── requirements.txt # Зависимости Python
-├── .gitignore # Игнорируемые файлы
-└── README.md # Документация
+├── app/                      # Основной код
+│   ├── main.py               # FastAPI приложение
+│   ├── models.py             # Таблицы БД
+│   ├── schemas.py            # Pydantic схемы
+│   ├── crud.py               # Работа с БД
+│   ├── tasks.py              # Celery задачи
+│   └── database.py           # Подключение к БД
+├── docker/                   # Dockerfile'ы
+├── tests/                    # Locust тесты
+├── results/                  # Скриншоты тестов (локально)
+├── docker-compose.yml        # Оркестрация контейнеров
+├── requirements.txt          # Зависимости Python
+├── .gitignore                # Игнорируемые файлы
+└── README.md                 # Документация
+```
 
 ## Разработка
 
