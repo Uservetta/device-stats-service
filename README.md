@@ -58,6 +58,20 @@
 | 99-й перцентиль     | 1,400 мс |
 | Максимум            | 1,794 мс |
 
+### Скриншоты
+
+#### 1. Панель управления Locust (общая статистика)
+<img width="1920" height="798" alt="locust_50_users" src="https://github.com/user-attachments/assets/b06d0dd4-6329-4cdb-8c7a-3a8ed426a208" />
+
+#### 2. Графики производительности
+<img width="1682" height="998" alt="locust_statistics" src="https://github.com/user-attachments/assets/db279b81-247d-49de-909f-c661c413462b" />
+
+#### 3. Результат API анализа
+<img width="1591" height="914" alt="api_analysis_reslut" src="https://github.com/user-attachments/assets/e3611728-397e-47b6-b172-2e111dc9f14b" />
+
+
+
+
 ### Вывод:
 
 Сервис стабилен (0% ошибок).
